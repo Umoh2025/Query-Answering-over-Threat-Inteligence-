@@ -1,0 +1,1224 @@
+﻿[
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152921504606846976,
+      "start": 0,
+      "end": 1,
+      "type": "used_tool",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152921504606846976",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
+    },
+    "c": {
+      "identity": 1,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "PhishX"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1155173304420532224,
+      "start": 0,
+      "end": 5,
+      "type": "used_tool",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155173304420532224",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:5"
+    },
+    "c": {
+      "identity": 5,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "PDF, Excel macros"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:5"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1157425104234217472,
+      "start": 0,
+      "end": 6,
+      "type": "used_tool",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1157425104234217472",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:6"
+    },
+    "c": {
+      "identity": 6,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "PowerShell scripts"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:6"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1159676904047902720,
+      "start": 0,
+      "end": 13,
+      "type": "used_tool",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1159676904047902720",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:13"
+    },
+    "c": {
+      "identity": 13,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Recon → Phishing payload"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:13"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152922604118474752,
+      "start": 0,
+      "end": 2,
+      "type": "engaged_in",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152922604118474752",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:2"
+    },
+    "c": {
+      "identity": 2,
+      "labels": [
+        "Attack"
+      ],
+      "properties": {
+        "name": "BEC"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:2"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152923703630102528,
+      "start": 0,
+      "end": 3,
+      "type": "targeted",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152923703630102528",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:3"
+    },
+    "c": {
+      "identity": 3,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "FBN, Zenith Bank, UBA"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:3"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1155175503443787776,
+      "start": 0,
+      "end": 4,
+      "type": "targeted",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155175503443787776",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:4"
+    },
+    "c": {
+      "identity": 4,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "financial institutions"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:4"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152924803141730304,
+      "start": 0,
+      "end": 7,
+      "type": "used_technique",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152924803141730304",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:7"
+    },
+    "c": {
+      "identity": 7,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Domain spoofing"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:7"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1155176602955415552,
+      "start": 0,
+      "end": 29,
+      "type": "used_technique",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155176602955415552",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:29"
+    },
+    "c": {
+      "identity": 29,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "SIM card hijacking"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:29"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152925902653358080,
+      "start": 0,
+      "end": 8,
+      "type": "uses",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152925902653358080",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:8"
+    },
+    "c": {
+      "identity": 8,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "Phishing infrastructure"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:8"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152927002164985856,
+      "start": 0,
+      "end": 9,
+      "type": "located_in",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152927002164985856",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:9"
+    },
+    "c": {
+      "identity": 9,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Lagos"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:9"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152928101676613632,
+      "start": 0,
+      "end": 10,
+      "type": "used_IP",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152928101676613632",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:10"
+    },
+    "c": {
+      "identity": 10,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "105.112.X.X, Nigerian IPs"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:10"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152930300699869184,
+      "start": 0,
+      "end": 11,
+      "type": "associated_with",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152930300699869184",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:11"
+    },
+    "c": {
+      "identity": 11,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Nigerian threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:11"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152932499723124736,
+      "start": 0,
+      "end": 14,
+      "type": "used_malware",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152932499723124736",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:14"
+    },
+    "c": {
+      "identity": 14,
+      "labels": [
+        "Malware"
+      ],
+      "properties": {
+        "name": "Agent Tesla"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:14"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152933599234752512,
+      "start": 0,
+      "end": 15,
+      "type": "tracked_by",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152933599234752512",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:15"
+    },
+    "c": {
+      "identity": 15,
+      "labels": [
+        "Org"
+      ],
+      "properties": {
+        "name": "Palo Alto Networks"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:15"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152934698746380288,
+      "start": 0,
+      "end": 16,
+      "type": "investigated_by",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152934698746380288",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:16"
+    },
+    "c": {
+      "identity": 16,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "EFCC, NIMC"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:16"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152935798258008064,
+      "start": 0,
+      "end": 17,
+      "type": "linked_with",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152935798258008064",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:17"
+    },
+    "c": {
+      "identity": 17,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "NIMC, CBN"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:17"
+    }
+  },
+  {
+    "a": {
+      "identity": 0,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "SilverTerrier"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+    },
+    "b": {
+      "identity": 1152936897769635840,
+      "start": 0,
+      "end": 18,
+      "type": "compromised",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152936897769635840",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:18"
+    },
+    "c": {
+      "identity": 18,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "UNILAG, ABU, UNN"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:18"
+    }
+  },
+  {
+    "a": {
+      "identity": 1,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "PhishX"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
+    },
+    "b": {
+      "identity": 1152924803141730305,
+      "start": 1,
+      "end": 35,
+      "type": "used_technique",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152924803141730305",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:35"
+    },
+    "c": {
+      "identity": 35,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Social Harvesting"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:35"
+    }
+  },
+  {
+    "a": {
+      "identity": 1,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "PhishX"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
+    },
+    "b": {
+      "identity": 1152937997281263617,
+      "start": 1,
+      "end": 19,
+      "type": "used_by",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152937997281263617",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
+    },
+    "c": {
+      "identity": 19,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
+    }
+  },
+  {
+    "a": {
+      "identity": 1,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "PhishX"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
+    },
+    "b": {
+      "identity": 1152941295816146945,
+      "start": 1,
+      "end": 30,
+      "type": "linked_to",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152941295816146945",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
+    },
+    "c": {
+      "identity": 30,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Nigerian CyberGroups"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
+    }
+  },
+  {
+    "a": {
+      "identity": 11,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Nigerian threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:11"
+    },
+    "b": {
+      "identity": 1152931400211496971,
+      "start": 11,
+      "end": 12,
+      "type": "uses_tactic",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152931400211496971",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:11",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:12"
+    },
+    "c": {
+      "identity": 12,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "T1566 Phishing"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:12"
+    }
+  },
+  {
+    "a": {
+      "identity": 19,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
+    },
+    "b": {
+      "identity": 1152921504606846995,
+      "start": 19,
+      "end": 20,
+      "type": "used_tool",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152921504606846995",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:20"
+    },
+    "c": {
+      "identity": 20,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "RDP, TeamViewer"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:20"
+    }
+  },
+  {
+    "a": {
+      "identity": 19,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
+    },
+    "b": {
+      "identity": 1155173304420532243,
+      "start": 19,
+      "end": 21,
+      "type": "used_tool",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155173304420532243",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:21"
+    },
+    "c": {
+      "identity": 21,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Evilginx"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:21"
+    }
+  },
+  {
+    "a": {
+      "identity": 19,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
+    },
+    "b": {
+      "identity": 1152923703630102547,
+      "start": 19,
+      "end": 22,
+      "type": "targeted",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152923703630102547",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:22"
+    },
+    "c": {
+      "identity": 22,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "Remita, Paystack"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:22"
+    }
+  },
+  {
+    "a": {
+      "identity": 19,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
+    },
+    "b": {
+      "identity": 1155175503443787795,
+      "start": 19,
+      "end": 23,
+      "type": "targeted",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155175503443787795",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:23"
+    },
+    "c": {
+      "identity": 23,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "Pen Com, Pension"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:23"
+    }
+  },
+  {
+    "a": {
+      "identity": 19,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
+    },
+    "b": {
+      "identity": 1152932499723124755,
+      "start": 19,
+      "end": 24,
+      "type": "used_malware",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152932499723124755",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:24"
+    },
+    "c": {
+      "identity": 24,
+      "labels": [
+        "Malware"
+      ],
+      "properties": {
+        "name": "Browser Stealer"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:24"
+    }
+  },
+  {
+    "a": {
+      "identity": 19,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Threat actors"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
+    },
+    "b": {
+      "identity": 1152939096792891411,
+      "start": 19,
+      "end": 25,
+      "type": "includes",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152939096792891411",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
+    },
+    "c": {
+      "identity": 25,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Black Mamba"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
+    }
+  },
+  {
+    "a": {
+      "identity": 25,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Black Mamba"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
+    },
+    "b": {
+      "identity": 1152923703630102553,
+      "start": 25,
+      "end": 26,
+      "type": "targeted",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152923703630102553",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:26"
+    },
+    "c": {
+      "identity": 26,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "NCDC"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:26"
+    }
+  },
+  {
+    "a": {
+      "identity": 25,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Black Mamba"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
+    },
+    "b": {
+      "identity": 1152930300699869209,
+      "start": 25,
+      "end": 27,
+      "type": "associated_with",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152930300699869209",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:27"
+    },
+    "c": {
+      "identity": 27,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Global BEC groups"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:27"
+    }
+  },
+  {
+    "a": {
+      "identity": 25,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Black Mamba"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
+    },
+    "b": {
+      "identity": 1152940196304519193,
+      "start": 25,
+      "end": 28,
+      "type": "recruited_from",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152940196304519193",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:28"
+    },
+    "c": {
+      "identity": 28,
+      "labels": [
+        "Entity"
+      ],
+      "properties": {
+        "name": "UNILAG"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:28"
+    }
+  },
+  {
+    "a": {
+      "identity": 30,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Nigerian CyberGroups"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
+    },
+    "b": {
+      "identity": 1152935798258008094,
+      "start": 30,
+      "end": 34,
+      "type": "linked_with",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152935798258008094",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:34"
+    },
+    "c": {
+      "identity": 34,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Dark Hydra"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:34"
+    }
+  },
+  {
+    "a": {
+      "identity": 30,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Nigerian CyberGroups"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
+    },
+    "b": {
+      "identity": 1152942395327774750,
+      "start": 30,
+      "end": 31,
+      "type": "expanded_to",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152942395327774750",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:31"
+    },
+    "c": {
+      "identity": 31,
+      "labels": [
+        "Country"
+      ],
+      "properties": {
+        "name": "Ghana"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:31"
+    }
+  },
+  {
+    "a": {
+      "identity": 30,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Nigerian CyberGroups"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
+    },
+    "b": {
+      "identity": 1155194195141459998,
+      "start": 30,
+      "end": 32,
+      "type": "expanded_to",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155194195141459998",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:32"
+    },
+    "c": {
+      "identity": 32,
+      "labels": [
+        "Country"
+      ],
+      "properties": {
+        "name": "Kenya"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:32"
+    }
+  },
+  {
+    "a": {
+      "identity": 30,
+      "labels": [
+        "Group"
+      ],
+      "properties": {
+        "name": "Nigerian CyberGroups"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
+    },
+    "b": {
+      "identity": 1157445994955145246,
+      "start": 30,
+      "end": 33,
+      "type": "expanded_to",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1157445994955145246",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:33"
+    },
+    "c": {
+      "identity": 33,
+      "labels": [
+        "Country"
+      ],
+      "properties": {
+        "name": "South Africa"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:33"
+    }
+  },
+  {
+    "a": {
+      "identity": 36,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Mimikatz"
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:36"
+    },
+    "b": {
+      "identity": 1152929201188241444,
+      "start": 36,
+      "end": 37,
+      "type": "used_tool_on",
+      "properties": {
+
+      },
+      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152929201188241444",
+      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:36",
+      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:37"
+    },
+    "c": {
+      "identity": 37,
+      "labels": [],
+      "properties": {
+
+      },
+      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:37"
+    }
+  }
+]
