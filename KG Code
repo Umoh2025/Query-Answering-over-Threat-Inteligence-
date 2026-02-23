@@ -1,80 +1,378 @@
-// === NODES ===
-MERGE (silver:Entity {name: "SilverTerrier"})
-MERGE (phishx:Tool {name: "PhishX"})
-MERGE (bec:Attack {name: "BEC"})
-MERGE (nigerianBanks:Entity {name: "FBN, Zenith Bank, UBA"})
-MERGE (financialTargets:Entity {name: "financial institutions"})
-MERGE (pdf:Tool {name: "PDF, Excel macros"})
-MERGE (powershell:Tool {name: "PowerShell scripts"})
-MERGE (domainSpoof:Technique {name: "Domain spoofing"})
-MERGE (phishingInfra:Entity {name: "Phishing infrastructure"})
-MERGE (lagos:Location {name: "Lagos"})
-MERGE (ips:Entity {name: "105.112.X.X, Nigerian IPs"})
-MERGE (nigerianThreatActors:Group {name: "Nigerian threat actors"})
-MERGE (tactic:Technique {name: "T1566 Phishing"})
-MERGE (reconPhish:Tool {name: "Recon → Phishing payload"})
-MERGE (agentTesla:Malware {name: "Agent Tesla"})
-MERGE (paloAlto:Org {name: "Palo Alto Networks"})
-MERGE (efcc:Entity {name: "EFCC, NIMC"})
-MERGE (nibc:Entity {name: "NIMC, CBN"})
-MERGE (universities:Entity {name: "UNILAG, ABU, UNN"})
-MERGE (threatActors:Group {name: "Threat actors"})
-MERGE (rdpTools:Tool {name: "RDP, TeamViewer"})
-MERGE (evilg:Tool {name: "Evilginx"})
-MERGE (remita:Entity {name: "Remita, Paystack"})
-MERGE (pencom:Entity {name: "Pen Com, Pension"})
-MERGE (browserStealer:Malware {name: "Browser Stealer"})
-MERGE (blackMamba:Group {name: "Black Mamba"})
-MERGE (ncdc:Entity {name: "NCDC"})
-MERGE (globalBEC:Group {name: "Global BEC groups"})
-MERGE (unilagNode:Entity {name: "UNILAG"})
-MERGE (simHijack:Technique {name: "SIM card hijacking"})
-MERGE (nigerianCyber:Group {name: "Nigerian CyberGroups"})
-MERGE (ghana:Country {name: "Ghana"})
-MERGE (kenya:Country {name: "Kenya"})
-MERGE (southAfrica:Country {name: "South Africa"})
-MERGE (darkHydra:Group {name: "Dark Hydra"})
-MERGE (socialHarvest:Technique {name: "Social Harvesting"})
-MERGE (mimi:Tool {name: "Mimikatz"})
+// FULL CYBER THREAT INTELLIGENCE GRAPH
+
+// NODES
+
+// ACTORS
+MERGE (:Actor {name:"Threat actors"});
+MERGE (:Actor {name:"Nigerian CyberGroups"});
+MERGE (:Actor {name:"Black Mamba"});
+MERGE (:Actor {name:"Dark Hydra"});
+MERGE (:Actor {name:"SilverTerrier"});
+MERGE (:Actor {name:"Nigerian threat actors"});
+
+MERGE (:Actor {name:"Golden Mantis"});
+MERGE (:Actor {name:"River Hydra"});
+MERGE (:Actor {name:"NaijaFox"});
+MERGE (:Actor {name:"Delta Spider"});
+MERGE (:Actor {name:"Abuja Syndicate"});
+MERGE (:Actor {name:"Lekki Wolves"});
+
+// TOOLS
+
+MERGE (:Tool {name:"PhishX"});
+MERGE (:Tool {name:"Evilgnix"});
+MERGE (:Tool {name:"TeamViewer"});
+MERGE (:Tool {name:"RDP"});
+MERGE (:Tool {name:"cmd.exe"});
+MERGE (:Tool {name:"Excel macros"});
+MERGE (:Tool {name:"PDF"});
+MERGE (:Tool {name:"Recon → payload"});
+MERGE (:Tool {name:"Browser Stealer"});
+
+MERGE (:Tool {name:"Metasploit"});
+MERGE (:Tool {name:"AnyDesk"});
+MERGE (:Tool {name:"RAT Loader"});
+MERGE (:Tool {name:"PowerShell scripts"});
+MERGE (:Tool {name:"Credential Dumper"});
+MERGE (:Tool {name:"Keylogger"});
+MERGE (:Tool {name:"Crypto Wallet Drainer"});
+MERGE (:Tool {name:"SMTP Blaster"});
+MERGE (:Tool {name:"VPN Tunnels"});
+MERGE (:Tool {name:"TOR Relay"});
+MERGE (:Tool {name:"Dropper Loader"});
+MERGE (:Tool {name:"Obfuscated JS"});
+MERGE (:Tool {name:"Macro Builder"});
+MERGE (:Tool {name:"APK Dropper"});
+MERGE (:Tool {name:"Android Spyware"});
+MERGE (:Tool {name:"Banking Trojan"});
+MERGE (:Tool {name:"Steganography Kit"});
+MERGE (:Tool {name:"DNS Tunneling Tool"});
+MERGE (:Tool {name:"Reverse Shell Kit"});
+
+// ORGANIZATIONS
+
+MERGE (:Organization {name:"UNILAG"});
+MERGE (:Organization {name:"ABU"});
+MERGE (:Organization {name:"UNIBEN"});
+MERGE (:Organization {name:"NIMC, CBN"});
+MERGE (:Organization {name:"EFCC"});
+MERGE (:Organization {name:"FBN"});
+MERGE (:Organization {name:"Zenith Bank"});
+MERGE (:Organization {name:"UBA"});
+MERGE (:Organization {name:"Paystack"});
+MERGE (:Organization {name:"Remita"});
+MERGE (:Organization {name:"PenCom"});
+MERGE (:Organization {name:"Palo Alto Networks"});
+MERGE (:Organization {name:"NCDC"});
+
+MERGE (:Organization {name:"Access Bank"});
+MERGE (:Organization {name:"Sterling Bank"});
+MERGE (:Organization {name:"Union Bank"});
+MERGE (:Organization {name:"Wema Bank"});
+MERGE (:Organization {name:"Fidelity Bank"});
+MERGE (:Organization {name:"Keystone Bank"});
+MERGE (:Organization {name:"FCMB"});
+MERGE (:Organization {name:"INEC"});
+MERGE (:Organization {name:"NITDA"});
+MERGE (:Organization {name:"NPF"});
+MERGE (:Organization {name:"DSS"});
+MERGE (:Organization {name:"NCC"});
+MERGE (:Organization {name:"FIRS"});
+MERGE (:Organization {name:"NDIC"});
+MERGE (:Organization {name:"Flutterwave"});
+MERGE (:Organization {name:"Opay"});
+MERGE (:Organization {name:"Kuda"});
+MERGE (:Organization {name:"Moniepoint"});
+MERGE (:Organization {name:"Interswitch"});
+MERGE (:Organization {name:"UI"});
+MERGE (:Organization {name:"OAU"});
+MERGE (:Organization {name:"UNN"});
+MERGE (:Organization {name:"FUTA"});
+MERGE (:Organization {name:"BUK"});
+MERGE (:Organization {name:"LASU"});
+MERGE (:Organization {name:"INTERPOL"});
+
+// TECHNIQUES
+
+MERGE (:Technique {name:"Social Harvesting"});
+MERGE (:Technique {name:"T1566 Phishing"});
+MERGE (:Technique {name:"Domain spoofing"});
+MERGE (:Technique {name:"SIM card hijacking"});
+MERGE (:Technique {name:"fake invoices"});
+MERGE (:Technique {name:"Phishing infrastructure"});
+MERGE (:Technique {name:"BEC"});
+MERGE (:Technique {name:"Global BEC groups"});
+
+MERGE (:Technique {name:"Invoice Fraud"});
+MERGE (:Technique {name:"Account Takeover"});
+MERGE (:Technique {name:"Identity Theft"});
+MERGE (:Technique {name:"MFA Bypass"});
+MERGE (:Technique {name:"Credential Stuffing"});
+MERGE (:Technique {name:"Session Hijacking"});
+MERGE (:Technique {name:"SIM Swap Fraud"});
+MERGE (:Technique {name:"Insider Threat"});
+MERGE (:Technique {name:"Data Exfiltration"});
+MERGE (:Technique {name:"Ransomware Deployment"});
+MERGE (:Technique {name:"Malware Obfuscation"});
+MERGE (:Technique {name:"Social Engineering"});
+MERGE (:Technique {name:"OSINT Reconnaissance"});
+MERGE (:Technique {name:"Domain Hijacking"});
+MERGE (:Technique {name:"DNS Spoofing"});
+
+// LOCATIONS
+
+MERGE (:Location {name:"South Africa"});
+MERGE (:Location {name:"Ghana"});
+MERGE (:Location {name:"Kenya"});
+MERGE (:Location {name:"Lagos"});
+MERGE (:Location {name:"Abuja"});
+MERGE (:Location {name:"Port Harcourt"});
+MERGE (:Location {name:"Kano"});
+MERGE (:Location {name:"Ibadan"});
+MERGE (:Location {name:"Kaduna"});
+MERGE (:Location {name:"Enugu"});
+MERGE (:Location {name:"Benin City"});
+MERGE (:Location {name:"Jos"});
+MERGE (:Location {name:"Ilorin"});
+MERGE (:Location {name:"Maiduguri"});
+MERGE (:Location {name:"Accra"});
+MERGE (:Location {name:"Johannesburg"});
+MERGE (:Location {name:"Nairobi"});
+MERGE (:Location {name:"Dubai"});
+
+// INFRASTRUCTURE
+
+MERGE (:Infrastructure {name:"105.112.X.X"});
+MERGE (:Infrastructure {name:"197.210.X.X"});
+MERGE (:Infrastructure {name:"secure-update-ng.com"});
+MERGE (:Infrastructure {name:"login-zenith-secure.net"});
+MERGE (:Infrastructure {name:"paystack-alert.org"});
+MERGE (:Infrastructure {name:"gtbank-verification.net"});
+MERGE (:Infrastructure {name:"cbn-policy-update.com"});
+MERGE (:Infrastructure {name:"invoice-remita.net"});
+MERGE (:Infrastructure {name:"efcc-alerts.org"});
+MERGE (:Infrastructure {name:"unilag-student-portal.net"});
+MERGE (:Infrastructure {name:"DigitalOcean"});
+MERGE (:Infrastructure {name:"OVH"});
+MERGE (:Infrastructure {name:"AWS EC2"});
+MERGE (:Infrastructure {name:"Hetzner"});
+MERGE (:Infrastructure {name:"TOR Node 1"});
+MERGE (:Infrastructure {name:"TOR Node 2"});
+MERGE (:Infrastructure {name:"Bulletproof Host A"});
+MERGE (:Infrastructure {name:"Bulletproof Host B"});
 
 
-// === RELATIONSHIPS ===
-MERGE (silver)-[:used_tool]->(phishx)
-MERGE (silver)-[:used_tool]->(Mimikatz)
-MERGE (silver)-[:engaged_in]->(bec)
-MERGE (silver)-[:targeted]->(nigerianBanks)
-MERGE (silver)-[:targeted]->(financialTargets)
-MERGE (silver)-[:used_tool]->(pdf)
-MERGE (silver)-[:used_tool]->(powershell)
-MERGE (silver)-[:used_technique]->(domainSpoof)
-MERGE (silver)-[:uses]->(phishingInfra)
-MERGE (silver)-[:located_in]->(lagos)
-MERGE (silver)-[:used_IP]->(ips)
-MERGE (mimi)-[:used_tool_on]->(NIMC)
-MERGE (mimi)-[:used_tool_on]->(CBN)
-MERGE (silver)-[:associated_with]->(nigerianThreatActors)
-MERGE (nigerianThreatActors)-[:uses_tactic]->(tactic)
-MERGE (silver)-[:used_tool]->(reconPhish)
-MERGE (silver)-[:used_malware]->(agentTesla)
-MERGE (silver)-[:tracked_by]->(paloAlto)
-MERGE (silver)-[:investigated_by]->(efcc)
-MERGE (silver)-[:linked_with]->(nibc)
-MERGE (silver)-[:compromised]->(universities)
-MERGE (phishx)-[:used_by]->(threatActors)
-MERGE (threatActors)-[:used_tool]->(rdpTools)
-MERGE (threatActors)-[:used_tool]->(evilg)
-MERGE (threatActors)-[:targeted]->(remita)
-MERGE (threatActors)-[:targeted]->(pencom)
-MERGE (threatActors)-[:used_malware]->(browserStealer)
-MERGE (threatActors)-[:includes]->(blackMamba)
-MERGE (blackMamba)-[:targeted]->(ncdc)
-MERGE (blackMamba)-[:associated_with]->(globalBEC)
-MERGE (blackMamba)-[:recruited_from]->(unilagNode)
-MERGE (silver)-[:used_technique]->(simHijack)
-MERGE (phishx)-[:linked_to]->(nigerianCyber)
-MERGE (nigerianCyber)-[:expanded_to]->(ghana)
-MERGE (nigerianCyber)-[:expanded_to]->(kenya)
-MERGE (nigerianCyber)-[:expanded_to]->(southAfrica)
-MERGE (nigerianCyber)-[:linked_with]->(darkHydra)
-MERGE (phishx)-[:used_technique]->(socialHarvest)
-    
+// RELATIONSHIPS 
+
+// Threat actors → Tools
+MATCH (a:Actor {name:"Threat actors"}),(t:Tool {name:"RDP"}) MERGE (a)-[:USES]->(t);
+MATCH (a:Actor {name:"Threat actors"}),(t:Tool {name:"TeamViewer"}) MERGE (a)-[:USES]->(t);
+MATCH (a:Actor {name:"Threat actors"}),(t:Tool {name:"Evilgnix"}) MERGE (a)-[:USES]->(t);
+MATCH (a:Actor {name:"Threat actors"}),(t:Tool {name:"PhishX"}) MERGE (a)-[:USES]->(t);
+MATCH (a:Actor {name:"Threat actors"}),(tech:Technique {name:"Social Harvesting"}) MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+// Nigerian CyberGroups structure
+MATCH (g:Actor {name:"Nigerian CyberGroups"}),(s:Actor {name:"Dark Hydra"}) MERGE (g)-[:INCLUDES]->(s);
+MATCH (g:Actor {name:"Nigerian CyberGroups"}),(l:Location {name:"Ghana"}) MERGE (g)-[:OPERATES_IN]->(l);
+MATCH (g:Actor {name:"Nigerian CyberGroups"}),(l:Location {name:"South Africa"}) MERGE (g)-[:OPERATES_IN]->(l);
+MATCH (g:Actor {name:"Nigerian CyberGroups"}),(l:Location {name:"Kenya"}) MERGE (g)-[:OPERATES_IN]->(l);
+
+// SilverTerrier full mapping
+MATCH (s:Actor {name:"SilverTerrier"}),(t:Tool {name:"cmd.exe"}) MERGE (s)-[:USES]->(t);
+MATCH (s:Actor {name:"SilverTerrier"}),(t:Tool {name:"Excel macros"}) MERGE (s)-[:USES]->(t);
+MATCH (s:Actor {name:"SilverTerrier"}),(t:Tool {name:"PDF"}) MERGE (s)-[:USES]->(t);
+MATCH (s:Actor {name:"SilverTerrier"}),(t:Tool {name:"Recon → payload"}) MERGE (s)-[:USES]->(t);
+
+MATCH (s:Actor {name:"SilverTerrier"}),(tech:Technique {name:"Phishing infrastructure"}) MERGE (s)-[:USES_TECHNIQUE]->(tech);
+MATCH (s:Actor {name:"SilverTerrier"}),(tech:Technique {name:"SIM card hijacking"}) MERGE (s)-[:USES_TECHNIQUE]->(tech);
+MATCH (s:Actor {name:"SilverTerrier"}),(tech:Technique {name:"fake invoices"}) MERGE (s)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (s:Actor {name:"SilverTerrier"}),(o:Organization {name:"FBN"}) MERGE (s)-[:TARGETS]->(o);
+MATCH (s:Actor {name:"SilverTerrier"}),(o:Organization {name:"Zenith Bank"}) MERGE (s)-[:TARGETS]->(o);
+MATCH (s:Actor {name:"SilverTerrier"}),(o:Organization {name:"UBA"}) MERGE (s)-[:TARGETS]->(o);
+MATCH (s:Actor {name:"SilverTerrier"}),(o:Organization {name:"EFCC"}) MERGE (s)-[:TARGETS]->(o);
+
+MATCH (s:Actor {name:"SilverTerrier"}),(i:Infrastructure {name:"105.112.X.X"}) MERGE (s)-[:USES_INFRASTRUCTURE]->(i);
+MATCH (s:Actor {name:"SilverTerrier"}),(i:Infrastructure {name:"197.210.X.X"}) MERGE (s)-[:USES_INFRASTRUCTURE]->(i);
+
+MATCH (s:Actor {name:"SilverTerrier"}),(l:Location {name:"Lagos"}) MERGE (s)-[:OPERATES_IN]->(l);
+
+
+// Golden Mantis 
+MATCH (a:Actor {name:"Golden Mantis"}),(t:Tool {name:"Metasploit"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"Golden Mantis"}),(t:Tool {name:"Credential Dumper"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"Golden Mantis"}),(tech:Technique {name:"Account Takeover"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"Golden Mantis"}),(tech:Technique {name:"Credential Stuffing"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"Golden Mantis"}),(o:Organization {name:"Access Bank"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"Golden Mantis"}),(o:Organization {name:"Union Bank"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"Golden Mantis"}),(l:Location {name:"Lagos"})
+MERGE (a)-[:OPERATES_IN]->(l);
+
+MATCH (a:Actor {name:"Golden Mantis"}),(i:Infrastructure {name:"secure-update-ng.com"})
+MERGE (a)-[:USES_INFRASTRUCTURE]->(i);
+
+
+// River Hydra 
+MATCH (a:Actor {name:"River Hydra"}),(t:Tool {name:"AnyDesk"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"River Hydra"}),(t:Tool {name:"RAT Loader"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"River Hydra"}),(tech:Technique {name:"Session Hijacking"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"River Hydra"}),(tech:Technique {name:"MFA Bypass"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"River Hydra"}),(o:Organization {name:"Sterling Bank"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"River Hydra"}),(o:Organization {name:"Fidelity Bank"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"River Hydra"}),(l:Location {name:"Abuja"})
+MERGE (a)-[:OPERATES_IN]->(l);
+
+MATCH (a:Actor {name:"River Hydra"}),(i:Infrastructure {name:"login-zenith-secure.net"})
+MERGE (a)-[:USES_INFRASTRUCTURE]->(i);
+
+
+// Naijafox 
+MATCH (a:Actor {name:"NaijaFox"}),(t:Tool {name:"SMTP Blaster"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"NaijaFox"}),(t:Tool {name:"Obfuscated JS"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"NaijaFox"}),(tech:Technique {name:"BEC"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"NaijaFox"}),(tech:Technique {name:"Invoice Fraud"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"NaijaFox"}),(o:Organization {name:"Flutterwave"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"NaijaFox"}),(o:Organization {name:"Paystack"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"NaijaFox"}),(l:Location {name:"Port Harcourt"})
+MERGE (a)-[:OPERATES_IN]->(l);
+
+MATCH (a:Actor {name:"NaijaFox"}),(i:Infrastructure {name:"invoice-remita.net"})
+MERGE (a)-[:USES_INFRASTRUCTURE]->(i);
+
+
+// Delta Spider 
+MATCH (a:Actor {name:"Delta Spider"}),(t:Tool {name:"Banking Trojan"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"Delta Spider"}),(t:Tool {name:"Keylogger"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"Delta Spider"}),(tech:Technique {name:"Identity Theft"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"Delta Spider"}),(tech:Technique {name:"SIM Swap Fraud"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"Delta Spider"}),(o:Organization {name:"UBA"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"Delta Spider"}),(o:Organization {name:"Zenith Bank"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"Delta Spider"}),(l:Location {name:"Benin City"})
+MERGE (a)-[:OPERATES_IN]->(l);
+
+MATCH (a:Actor {name:"Delta Spider"}),(i:Infrastructure {name:"gtbank-verification.net"})
+MERGE (a)-[:USES_INFRASTRUCTURE]->(i);
+
+
+// Abuja Syndiicate 
+MATCH (a:Actor {name:"Abuja Syndicate"}),(t:Tool {name:"VPN Tunnels"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"Abuja Syndicate"}),(t:Tool {name:"TOR Relay"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"Abuja Syndicate"}),(tech:Technique {name:"Domain Hijacking"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"Abuja Syndicate"}),(tech:Technique {name:"DNS Spoofing"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"Abuja Syndicate"}),(o:Organization {name:"INEC"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"Abuja Syndicate"}),(o:Organization {name:"NITDA"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"Abuja Syndicate"}),(l:Location {name:"Abuja"})
+MERGE (a)-[:OPERATES_IN]->(l);
+
+MATCH (a:Actor {name:"Abuja Syndicate"}),(i:Infrastructure {name:"cbn-policy-update.com"})
+MERGE (a)-[:USES_INFRASTRUCTURE]->(i);
+
+
+// Lekki Wolves 
+MATCH (a:Actor {name:"Lekki Wolves"}),(t:Tool {name:"APK Dropper"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"Lekki Wolves"}),(t:Tool {name:"Android Spyware"})
+MERGE (a)-[:USES]->(t);
+
+MATCH (a:Actor {name:"Lekki Wolves"}),(tech:Technique {name:"Data Exfiltration"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"Lekki Wolves"}),(tech:Technique {name:"Ransomware Deployment"})
+MERGE (a)-[:USES_TECHNIQUE]->(tech);
+
+MATCH (a:Actor {name:"Lekki Wolves"}),(o:Organization {name:"Kuda"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"Lekki Wolves"}),(o:Organization {name:"Opay"})
+MERGE (a)-[:TARGETS]->(o);
+
+MATCH (a:Actor {name:"Lekki Wolves"}),(l:Location {name:"Lagos"})
+MERGE (a)-[:OPERATES_IN]->(l);
+
+MATCH (a:Actor {name:"Lekki Wolves"}),(i:Infrastructure {name:"unilag-student-portal.net"})
+MERGE (a)-[:USES_INFRASTRUCTURE]->(i);
+
+
+// END
+
+
+// GRAPH ROOT
+MERGE (:GraphRoot {name:"Nigeria CyberSpace"});
+
+/////////////////////////////////////////////////////////////////////////
+
+// CONNECT ALL ACTORS TO GRAPH ROOT (No node will stand isolated) 
+
+MATCH (root:GraphRoot {name:"Nigeria CyberSpace"})
+MATCH (a:Actor)
+MERGE (root)-[:CONTAINS_ACTOR]->(a);
+
+
+/////////////////////////////////////////////////////////////////////////
+
+
+// Visualization (Display the entire graph as one connected graph) 
+
+MATCH (root:GraphRoot {name:"Nigeria CyberSpace"})-[r*1..3]->(n)
+RETURN root,r,n
