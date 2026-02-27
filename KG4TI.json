@@ -1,1224 +1,3534 @@
-﻿[
+[
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152921504606846976,
-      "start": 0,
-      "end": 1,
-      "type": "used_tool",
+    "r": [
+      {
+        "identity": 1152983077258002567,
+        "start": 135,
+        "end": 0,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152983077258002567",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:0"
+      }
+    ],
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Actor"
+      ],
       "properties": {
-
+        "name": "Dark Hydra"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152921504606846976",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:0"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "c": {
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      }
+    ],
+    "n": {
       "identity": 1,
       "labels": [
-        "Tool"
-      ],
-      "properties": {
-        "name": "PhishX"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
-    }
-  },
-  {
-    "a": {
-      "identity": 0,
-      "labels": [
-        "Entity"
+        "Actor"
       ],
       "properties": {
         "name": "SilverTerrier"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
-    },
-    "b": {
-      "identity": 1155173304420532224,
-      "start": 0,
-      "end": 5,
-      "type": "used_tool",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155173304420532224",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:5"
-    },
-    "c": {
-      "identity": 5,
-      "labels": [
-        "Tool"
-      ],
-      "properties": {
-        "name": "PDF, Excel macros"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:5"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1157425104234217472,
-      "start": 0,
-      "end": 6,
-      "type": "used_tool",
-      "properties": {
-
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1157425104234217472",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:6"
-    },
-    "c": {
-      "identity": 6,
-      "labels": [
-        "Tool"
-      ],
-      "properties": {
-        "name": "PowerShell scripts"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:6"
-    }
-  },
-  {
-    "a": {
-      "identity": 0,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "SilverTerrier"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
-    },
-    "b": {
-      "identity": 1159676904047902720,
-      "start": 0,
-      "end": 13,
-      "type": "used_tool",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1159676904047902720",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:13"
-    },
-    "c": {
+      {
+        "identity": 1152969883118469121,
+        "start": 1,
+        "end": 13,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152969883118469121",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:13"
+      }
+    ],
+    "n": {
       "identity": 13,
       "labels": [
         "Tool"
       ],
       "properties": {
-        "name": "Recon → Phishing payload"
+        "name": "cmd.exe"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:13"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:13"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152922604118474752,
-      "start": 0,
-      "end": 2,
-      "type": "engaged_in",
-      "properties": {
-
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152922604118474752",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:2"
-    },
-    "c": {
-      "identity": 2,
+      {
+        "identity": 1155221682932154369,
+        "start": 1,
+        "end": 14,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155221682932154369",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:14"
+      }
+    ],
+    "n": {
+      "identity": 14,
       "labels": [
-        "Attack"
+        "Tool"
       ],
       "properties": {
-        "name": "BEC"
+        "name": "Excel macros"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:2"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:14"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152923703630102528,
-      "start": 0,
-      "end": 3,
-      "type": "targeted",
-      "properties": {
-
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152923703630102528",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:3"
-    },
-    "c": {
-      "identity": 3,
+      {
+        "identity": 1157473482745839617,
+        "start": 1,
+        "end": 15,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1157473482745839617",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:15"
+      }
+    ],
+    "n": {
+      "identity": 15,
       "labels": [
-        "Entity"
+        "Tool"
       ],
       "properties": {
-        "name": "FBN, Zenith Bank, UBA"
+        "name": "PDF"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:3"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:15"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1155175503443787776,
-      "start": 0,
-      "end": 4,
-      "type": "targeted",
-      "properties": {
-
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155175503443787776",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:4"
-    },
-    "c": {
-      "identity": 4,
+      {
+        "identity": 1159725282559524865,
+        "start": 1,
+        "end": 16,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159725282559524865",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:16"
+      }
+    ],
+    "n": {
+      "identity": 16,
       "labels": [
-        "Entity"
+        "Tool"
       ],
       "properties": {
-        "name": "financial institutions"
+        "name": "Recon → payload"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:4"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:16"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152924803141730304,
-      "start": 0,
-      "end": 7,
-      "type": "used_technique",
-      "properties": {
-
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152924803141730304",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:7"
-    },
-    "c": {
-      "identity": 7,
-      "labels": [
-        "Technique"
-      ],
-      "properties": {
-        "name": "Domain spoofing"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:7"
-    }
-  },
-  {
-    "a": {
-      "identity": 0,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "SilverTerrier"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
-    },
-    "b": {
-      "identity": 1155176602955415552,
-      "start": 0,
-      "end": 29,
-      "type": "used_technique",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155176602955415552",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:29"
-    },
-    "c": {
-      "identity": 29,
+      {
+        "identity": 1155222782443782145,
+        "start": 1,
+        "end": 79,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155222782443782145",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:79"
+      }
+    ],
+    "n": {
+      "identity": 79,
       "labels": [
         "Technique"
       ],
       "properties": {
         "name": "SIM card hijacking"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:29"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:79"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152925902653358080,
-      "start": 0,
-      "end": 8,
-      "type": "uses",
-      "properties": {
-
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152925902653358080",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:8"
-    },
-    "c": {
-      "identity": 8,
+      {
+        "identity": 1157474582257467393,
+        "start": 1,
+        "end": 80,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1157474582257467393",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:80"
+      }
+    ],
+    "n": {
+      "identity": 80,
       "labels": [
-        "Entity"
+        "Technique"
+      ],
+      "properties": {
+        "name": "fake invoices"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:80"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      },
+      {
+        "identity": 1152970982630096897,
+        "start": 1,
+        "end": 81,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152970982630096897",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:81"
+      }
+    ],
+    "n": {
+      "identity": 81,
+      "labels": [
+        "Technique"
       ],
       "properties": {
         "name": "Phishing infrastructure"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:8"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:81"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152927002164985856,
-      "start": 0,
-      "end": 9,
-      "type": "located_in",
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      },
+      {
+        "identity": 1152972082141724673,
+        "start": 1,
+        "end": 117,
+        "type": "USES_INFRASTRUCTURE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152972082141724673",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:117"
+      }
+    ],
+    "n": {
+      "identity": 117,
+      "labels": [
+        "Infrastructure"
+      ],
       "properties": {
-
+        "name": "105.112.X.X"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152927002164985856",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:9"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:117"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "c": {
-      "identity": 9,
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      },
+      {
+        "identity": 1155223881955409921,
+        "start": 1,
+        "end": 118,
+        "type": "USES_INFRASTRUCTURE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155223881955409921",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:118"
+      }
+    ],
+    "n": {
+      "identity": 118,
+      "labels": [
+        "Infrastructure"
+      ],
+      "properties": {
+        "name": "197.210.X.X"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:118"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      },
+      {
+        "identity": 1159731879629291521,
+        "start": 1,
+        "end": 41,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159731879629291521",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:41"
+      }
+    ],
+    "n": {
+      "identity": 41,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "EFCC"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:41"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      },
+      {
+        "identity": 1152976480188235777,
+        "start": 1,
+        "end": 42,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152976480188235777",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:42"
+      }
+    ],
+    "n": {
+      "identity": 42,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "FBN"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:42"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      },
+      {
+        "identity": 1155228280001921025,
+        "start": 1,
+        "end": 43,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155228280001921025",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:43"
+      }
+    ],
+    "n": {
+      "identity": 43,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Zenith Bank"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:43"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      },
+      {
+        "identity": 1157480079815606273,
+        "start": 1,
+        "end": 44,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1157480079815606273",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:44"
+      }
+    ],
+    "n": {
+      "identity": 44,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "UBA"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:44"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1155234877071687815,
+        "start": 135,
+        "end": 1,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155234877071687815",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1"
+      },
+      {
+        "identity": 6917585102734098534,
+        "start": 1,
+        "end": 102,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:6917585102734098534",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:1",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:102"
+      }
+    ],
+    "n": {
+      "identity": 102,
       "labels": [
         "Location"
       ],
       "properties": {
         "name": "Lagos"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:9"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:102"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152928101676613632,
-      "start": 0,
-      "end": 10,
-      "type": "used_IP",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152928101676613632",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:10"
-    },
-    "c": {
-      "identity": 10,
+    "r": [
+      {
+        "identity": 1157486676885373063,
+        "start": 135,
+        "end": 2,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1157486676885373063",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:2"
+      }
+    ],
+    "n": {
+      "identity": 2,
       "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "105.112.X.X, Nigerian IPs"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:10"
-    }
-  },
-  {
-    "a": {
-      "identity": 0,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "SilverTerrier"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
-    },
-    "b": {
-      "identity": 1152930300699869184,
-      "start": 0,
-      "end": 11,
-      "type": "associated_with",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152930300699869184",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:11"
-    },
-    "c": {
-      "identity": 11,
-      "labels": [
-        "Group"
+        "Actor"
       ],
       "properties": {
         "name": "Nigerian threat actors"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:11"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:2"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152932499723124736,
-      "start": 0,
-      "end": 14,
-      "type": "used_malware",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152932499723124736",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:14"
-    },
-    "c": {
-      "identity": 14,
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
+      }
+    ],
+    "n": {
+      "identity": 3,
       "labels": [
-        "Malware"
+        "Actor"
       ],
       "properties": {
-        "name": "Agent Tesla"
+        "name": "Golden Mantis"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:14"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
     }
   },
   {
-    "a": {
-      "identity": 0,
+    "root": {
+      "identity": 135,
       "labels": [
-        "Entity"
+        "GraphRoot"
       ],
       "properties": {
-        "name": "SilverTerrier"
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "b": {
-      "identity": 1152933599234752512,
-      "start": 0,
-      "end": 15,
-      "type": "tracked_by",
-      "properties": {
-
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152933599234752512",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:15"
-    },
-    "c": {
-      "identity": 15,
-      "labels": [
-        "Org"
-      ],
-      "properties": {
-        "name": "Palo Alto Networks"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:15"
-    }
-  },
-  {
-    "a": {
-      "identity": 0,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "SilverTerrier"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
-    },
-    "b": {
-      "identity": 1152934698746380288,
-      "start": 0,
-      "end": 16,
-      "type": "investigated_by",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152934698746380288",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:16"
-    },
-    "c": {
-      "identity": 16,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "EFCC, NIMC"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:16"
-    }
-  },
-  {
-    "a": {
-      "identity": 0,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "SilverTerrier"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
-    },
-    "b": {
-      "identity": 1152935798258008064,
-      "start": 0,
-      "end": 17,
-      "type": "linked_with",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152935798258008064",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:17"
-    },
-    "c": {
-      "identity": 17,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "NIMC, CBN"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:17"
-    }
-  },
-  {
-    "a": {
-      "identity": 0,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "SilverTerrier"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0"
-    },
-    "b": {
-      "identity": 1152936897769635840,
-      "start": 0,
-      "end": 18,
-      "type": "compromised",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152936897769635840",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:0",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:18"
-    },
-    "c": {
+      {
+        "identity": 1152969883118469123,
+        "start": 3,
+        "end": 18,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152969883118469123",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:18"
+      }
+    ],
+    "n": {
       "identity": 18,
       "labels": [
-        "Entity"
+        "Tool"
       ],
       "properties": {
-        "name": "UNILAG, ABU, UNN"
+        "name": "Metasploit"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:18"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:18"
     }
   },
   {
-    "a": {
-      "identity": 1,
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
+      },
+      {
+        "identity": 1155221682932154371,
+        "start": 3,
+        "end": 22,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155221682932154371",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:22"
+      }
+    ],
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Credential Dumper"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:22"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
+      },
+      {
+        "identity": 1152970982630096899,
+        "start": 3,
+        "end": 85,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152970982630096899",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:85"
+      }
+    ],
+    "n": {
+      "identity": 85,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Account Takeover"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:85"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
+      },
+      {
+        "identity": 1155222782443782147,
+        "start": 3,
+        "end": 88,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155222782443782147",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:88"
+      }
+    ],
+    "n": {
+      "identity": 88,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Credential Stuffing"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:88"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
+      },
+      {
+        "identity": 1152972082141724675,
+        "start": 3,
+        "end": 119,
+        "type": "USES_INFRASTRUCTURE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152972082141724675",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:119"
+      }
+    ],
+    "n": {
+      "identity": 119,
+      "labels": [
+        "Infrastructure"
+      ],
+      "properties": {
+        "name": "secure-update-ng.com"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:119"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
+      },
+      {
+        "identity": 1152976480188235779,
+        "start": 3,
+        "end": 50,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152976480188235779",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:50"
+      }
+    ],
+    "n": {
+      "identity": 50,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Access Bank"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:50"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
+      },
+      {
+        "identity": 1155228280001921027,
+        "start": 3,
+        "end": 52,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155228280001921027",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:52"
+      }
+    ],
+    "n": {
+      "identity": 52,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Union Bank"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:52"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1159738476699058311,
+        "start": 135,
+        "end": 3,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159738476699058311",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3"
+      },
+      {
+        "identity": 1152977579699863555,
+        "start": 3,
+        "end": 102,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152977579699863555",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:3",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:102"
+      }
+    ],
+    "n": {
+      "identity": 102,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Lagos"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:102"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      }
+    ],
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "River Hydra"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      },
+      {
+        "identity": 1152969883118469124,
+        "start": 4,
+        "end": 19,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152969883118469124",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:19"
+      }
+    ],
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "AnyDesk"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:19"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      },
+      {
+        "identity": 1155221682932154372,
+        "start": 4,
+        "end": 20,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155221682932154372",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:20"
+      }
+    ],
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "RAT Loader"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:20"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      },
+      {
+        "identity": 1155222782443782148,
+        "start": 4,
+        "end": 87,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155222782443782148",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:87"
+      }
+    ],
+    "n": {
+      "identity": 87,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "MFA Bypass"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:87"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      },
+      {
+        "identity": 1152970982630096900,
+        "start": 4,
+        "end": 89,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152970982630096900",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:89"
+      }
+    ],
+    "n": {
+      "identity": 89,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Session Hijacking"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:89"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      },
+      {
+        "identity": 1152972082141724676,
+        "start": 4,
+        "end": 120,
+        "type": "USES_INFRASTRUCTURE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152972082141724676",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:120"
+      }
+    ],
+    "n": {
+      "identity": 120,
+      "labels": [
+        "Infrastructure"
+      ],
+      "properties": {
+        "name": "login-zenith-secure.net"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:120"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      },
+      {
+        "identity": 1152976480188235780,
+        "start": 4,
+        "end": 51,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152976480188235780",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:51"
+      }
+    ],
+    "n": {
+      "identity": 51,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Sterling Bank"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:51"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      },
+      {
+        "identity": 1155228280001921028,
+        "start": 4,
+        "end": 54,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155228280001921028",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:54"
+      }
+    ],
+    "n": {
+      "identity": 54,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Fidelity Bank"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:54"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1161990276512743559,
+        "start": 135,
+        "end": 4,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1161990276512743559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4"
+      },
+      {
+        "identity": 1152977579699863556,
+        "start": 4,
+        "end": 103,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152977579699863556",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:4",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:103"
+      }
+    ],
+    "n": {
+      "identity": 103,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Abuja"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:103"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      }
+    ],
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "NaijaFox"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      },
+      {
+        "identity": 1152969883118469125,
+        "start": 5,
+        "end": 25,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152969883118469125",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:25"
+      }
+    ],
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "SMTP Blaster"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:25"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      },
+      {
+        "identity": 1155221682932154373,
+        "start": 5,
+        "end": 29,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155221682932154373",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:29"
+      }
+    ],
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Obfuscated JS"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:29"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      },
+      {
+        "identity": 1152970982630096901,
+        "start": 5,
+        "end": 82,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152970982630096901",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:82"
+      }
+    ],
+    "n": {
+      "identity": 82,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "BEC"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:82"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      },
+      {
+        "identity": 1155222782443782149,
+        "start": 5,
+        "end": 84,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155222782443782149",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:84"
+      }
+    ],
+    "n": {
+      "identity": 84,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Invoice Fraud"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:84"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      },
+      {
+        "identity": 1152972082141724677,
+        "start": 5,
+        "end": 124,
+        "type": "USES_INFRASTRUCTURE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152972082141724677",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:124"
+      }
+    ],
+    "n": {
+      "identity": 124,
+      "labels": [
+        "Infrastructure"
+      ],
+      "properties": {
+        "name": "invoice-remita.net"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:124"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      },
+      {
+        "identity": 1155228280001921029,
+        "start": 5,
+        "end": 45,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155228280001921029",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:45"
+      }
+    ],
+    "n": {
+      "identity": 45,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Paystack"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:45"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      },
+      {
+        "identity": 1152976480188235781,
+        "start": 5,
+        "end": 64,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152976480188235781",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:64"
+      }
+    ],
+    "n": {
+      "identity": 64,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Flutterwave"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:64"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1164242076326428807,
+        "start": 135,
+        "end": 5,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1164242076326428807",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5"
+      },
+      {
+        "identity": 1152977579699863557,
+        "start": 5,
+        "end": 104,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152977579699863557",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:5",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:104"
+      }
+    ],
+    "n": {
+      "identity": 104,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Port Harcourt"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:104"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      }
+    ],
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Delta Spider"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      },
+      {
+        "identity": 1155221682932154374,
+        "start": 6,
+        "end": 23,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155221682932154374",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:23"
+      }
+    ],
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Keylogger"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:23"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      },
+      {
+        "identity": 1152969883118469126,
+        "start": 6,
+        "end": 33,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152969883118469126",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:33"
+      }
+    ],
+    "n": {
+      "identity": 33,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Banking Trojan"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:33"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      },
+      {
+        "identity": 1152970982630096902,
+        "start": 6,
+        "end": 86,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152970982630096902",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:86"
+      }
+    ],
+    "n": {
+      "identity": 86,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Identity Theft"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:86"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      },
+      {
+        "identity": 1155222782443782150,
+        "start": 6,
+        "end": 90,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155222782443782150",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:90"
+      }
+    ],
+    "n": {
+      "identity": 90,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "SIM Swap Fraud"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:90"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      },
+      {
+        "identity": 1152972082141724678,
+        "start": 6,
+        "end": 122,
+        "type": "USES_INFRASTRUCTURE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152972082141724678",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:122"
+      }
+    ],
+    "n": {
+      "identity": 122,
+      "labels": [
+        "Infrastructure"
+      ],
+      "properties": {
+        "name": "gtbank-verification.net"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:122"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      },
+      {
+        "identity": 1155228280001921030,
+        "start": 6,
+        "end": 43,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155228280001921030",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:43"
+      }
+    ],
+    "n": {
+      "identity": 43,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Zenith Bank"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:43"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      },
+      {
+        "identity": 1152976480188235782,
+        "start": 6,
+        "end": 44,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152976480188235782",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:44"
+      }
+    ],
+    "n": {
+      "identity": 44,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "UBA"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:44"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1166493876140114055,
+        "start": 135,
+        "end": 6,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1166493876140114055",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6"
+      },
+      {
+        "identity": 1152977579699863558,
+        "start": 6,
+        "end": 109,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152977579699863558",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:6",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:109"
+      }
+    ],
+    "n": {
+      "identity": 109,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Benin City"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:109"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      }
+    ],
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Abuja Syndicate"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      },
+      {
+        "identity": 1152969883118469127,
+        "start": 7,
+        "end": 26,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152969883118469127",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:26"
+      }
+    ],
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "VPN Tunnels"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:26"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      },
+      {
+        "identity": 1155221682932154375,
+        "start": 7,
+        "end": 27,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155221682932154375",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:27"
+      }
+    ],
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "TOR Relay"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:27"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      },
+      {
+        "identity": 1152970982630096903,
+        "start": 7,
+        "end": 97,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152970982630096903",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:97"
+      }
+    ],
+    "n": {
+      "identity": 97,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Domain Hijacking"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:97"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      },
+      {
+        "identity": 1155222782443782151,
+        "start": 7,
+        "end": 98,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155222782443782151",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:98"
+      }
+    ],
+    "n": {
+      "identity": 98,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "DNS Spoofing"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:98"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      },
+      {
+        "identity": 1152972082141724679,
+        "start": 7,
+        "end": 123,
+        "type": "USES_INFRASTRUCTURE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152972082141724679",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:123"
+      }
+    ],
+    "n": {
+      "identity": 123,
+      "labels": [
+        "Infrastructure"
+      ],
+      "properties": {
+        "name": "cbn-policy-update.com"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:123"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      },
+      {
+        "identity": 1152976480188235783,
+        "start": 7,
+        "end": 57,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152976480188235783",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:57"
+      }
+    ],
+    "n": {
+      "identity": 57,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "INEC"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:57"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      },
+      {
+        "identity": 1155228280001921031,
+        "start": 7,
+        "end": 58,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155228280001921031",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:58"
+      }
+    ],
+    "n": {
+      "identity": 58,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "NITDA"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:58"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1168745675953799303,
+        "start": 135,
+        "end": 7,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1168745675953799303",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7"
+      },
+      {
+        "identity": 1152977579699863559,
+        "start": 7,
+        "end": 103,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152977579699863559",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:7",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:103"
+      }
+    ],
+    "n": {
+      "identity": 103,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Abuja"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:103"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      }
+    ],
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Lekki Wolves"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      },
+      {
+        "identity": 1152969883118469128,
+        "start": 8,
+        "end": 31,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152969883118469128",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:31"
+      }
+    ],
+    "n": {
+      "identity": 31,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "APK Dropper"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:31"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      },
+      {
+        "identity": 1155221682932154376,
+        "start": 8,
+        "end": 32,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155221682932154376",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:32"
+      }
+    ],
+    "n": {
+      "identity": 32,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Android Spyware"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:32"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      },
+      {
+        "identity": 1152970982630096904,
+        "start": 8,
+        "end": 92,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152970982630096904",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:92"
+      }
+    ],
+    "n": {
+      "identity": 92,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Data Exfiltration"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:92"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      },
+      {
+        "identity": 1155222782443782152,
+        "start": 8,
+        "end": 93,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155222782443782152",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:93"
+      }
+    ],
+    "n": {
+      "identity": 93,
+      "labels": [
+        "Technique"
+      ],
+      "properties": {
+        "name": "Ransomware Deployment"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:93"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      },
+      {
+        "identity": 1152972082141724680,
+        "start": 8,
+        "end": 126,
+        "type": "USES_INFRASTRUCTURE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152972082141724680",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:126"
+      }
+    ],
+    "n": {
+      "identity": 126,
+      "labels": [
+        "Infrastructure"
+      ],
+      "properties": {
+        "name": "unilag-student-portal.net"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:126"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      },
+      {
+        "identity": 1155228280001921032,
+        "start": 8,
+        "end": 65,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155228280001921032",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:65"
+      }
+    ],
+    "n": {
+      "identity": 65,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Opay"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:65"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      },
+      {
+        "identity": 1152976480188235784,
+        "start": 8,
+        "end": 66,
+        "type": "TARGETS",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152976480188235784",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:66"
+      }
+    ],
+    "n": {
+      "identity": 66,
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "name": "Kuda"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:66"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1170997475767484551,
+        "start": 135,
+        "end": 8,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1170997475767484551",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8"
+      },
+      {
+        "identity": 1152977579699863560,
+        "start": 8,
+        "end": 102,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152977579699863560",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:8",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:102"
+      }
+    ],
+    "n": {
+      "identity": 102,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Lagos"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:102"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1173249275581169799,
+        "start": 135,
+        "end": 155,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1173249275581169799",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155"
+      }
+    ],
+    "n": {
+      "identity": 155,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Nigerian CyberGroups"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1173249275581169799,
+        "start": 135,
+        "end": 155,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1173249275581169799",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155"
+      },
+      {
+        "identity": 1155229379513548955,
+        "start": 155,
+        "end": 99,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155229379513548955",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:99"
+      }
+    ],
+    "n": {
+      "identity": 99,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "South Africa"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:99"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1173249275581169799,
+        "start": 135,
+        "end": 155,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1173249275581169799",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155"
+      },
+      {
+        "identity": 1152977579699863707,
+        "start": 155,
+        "end": 100,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152977579699863707",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:100"
+      }
+    ],
+    "n": {
+      "identity": 100,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Ghana"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:100"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1173249275581169799,
+        "start": 135,
+        "end": 155,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1173249275581169799",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155"
+      },
+      {
+        "identity": 1157481179327234203,
+        "start": 155,
+        "end": 101,
+        "type": "OPERATES_IN",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1157481179327234203",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:101"
+      }
+    ],
+    "n": {
+      "identity": 101,
+      "labels": [
+        "Location"
+      ],
+      "properties": {
+        "name": "Kenya"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:101"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1173249275581169799,
+        "start": 135,
+        "end": 155,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1173249275581169799",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155"
+      },
+      {
+        "identity": 1152981977746374811,
+        "start": 155,
+        "end": 0,
+        "type": "INCLUDES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152981977746374811",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:155",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:0"
+      }
+    ],
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Dark Hydra"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:0"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1175501075394855047,
+        "start": 135,
+        "end": 156,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1175501075394855047",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:156"
+      }
+    ],
+    "n": {
+      "identity": 156,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Black Mamba"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:156"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1177752875208540295,
+        "start": 135,
+        "end": 157,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1177752875208540295",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157"
+      }
+    ],
+    "n": {
+      "identity": 157,
+      "labels": [
+        "Actor"
+      ],
+      "properties": {
+        "name": "Threat actors"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1177752875208540295,
+        "start": 135,
+        "end": 157,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1177752875208540295",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157"
+      },
+      {
+        "identity": 1159725282559525021,
+        "start": 157,
+        "end": 9,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1159725282559525021",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:9"
+      }
+    ],
+    "n": {
+      "identity": 9,
       "labels": [
         "Tool"
       ],
       "properties": {
         "name": "PhishX"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
-    },
-    "b": {
-      "identity": 1152924803141730305,
-      "start": 1,
-      "end": 35,
-      "type": "used_technique",
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:9"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
       "properties": {
-
+        "name": "Nigeria CyberSpace"
       },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152924803141730305",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:35"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
     },
-    "c": {
-      "identity": 35,
+    "r": [
+      {
+        "identity": 1177752875208540295,
+        "start": 135,
+        "end": 157,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1177752875208540295",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157"
+      },
+      {
+        "identity": 1157473482745839773,
+        "start": 157,
+        "end": 10,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1157473482745839773",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:10"
+      }
+    ],
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "Evilgnix"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:10"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1177752875208540295,
+        "start": 135,
+        "end": 157,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1177752875208540295",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157"
+      },
+      {
+        "identity": 1155221682932154525,
+        "start": 157,
+        "end": 11,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1155221682932154525",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:11"
+      }
+    ],
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "TeamViewer"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:11"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1177752875208540295,
+        "start": 135,
+        "end": 157,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1177752875208540295",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157"
+      },
+      {
+        "identity": 1152969883118469277,
+        "start": 157,
+        "end": 12,
+        "type": "USES",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152969883118469277",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:12"
+      }
+    ],
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Tool"
+      ],
+      "properties": {
+        "name": "RDP"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:12"
+    }
+  },
+  {
+    "root": {
+      "identity": 135,
+      "labels": [
+        "GraphRoot"
+      ],
+      "properties": {
+        "name": "Nigeria CyberSpace"
+      },
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135"
+    },
+    "r": [
+      {
+        "identity": 1177752875208540295,
+        "start": 135,
+        "end": 157,
+        "type": "CONTAINS_ACTOR",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1177752875208540295",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:135",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157"
+      },
+      {
+        "identity": 1152970982630097053,
+        "start": 157,
+        "end": 76,
+        "type": "USES_TECHNIQUE",
+        "properties": {},
+        "elementId": "5:aa78a221-b675-4516-85b6-6153718804bf:1152970982630097053",
+        "startNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:157",
+        "endNodeElementId": "4:aa78a221-b675-4516-85b6-6153718804bf:76"
+      }
+    ],
+    "n": {
+      "identity": 76,
       "labels": [
         "Technique"
       ],
       "properties": {
         "name": "Social Harvesting"
       },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:35"
-    }
-  },
-  {
-    "a": {
-      "identity": 1,
-      "labels": [
-        "Tool"
-      ],
-      "properties": {
-        "name": "PhishX"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
-    },
-    "b": {
-      "identity": 1152937997281263617,
-      "start": 1,
-      "end": 19,
-      "type": "used_by",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152937997281263617",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
-    },
-    "c": {
-      "identity": 19,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Threat actors"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
-    }
-  },
-  {
-    "a": {
-      "identity": 1,
-      "labels": [
-        "Tool"
-      ],
-      "properties": {
-        "name": "PhishX"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1"
-    },
-    "b": {
-      "identity": 1152941295816146945,
-      "start": 1,
-      "end": 30,
-      "type": "linked_to",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152941295816146945",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:1",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
-    },
-    "c": {
-      "identity": 30,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Nigerian CyberGroups"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
-    }
-  },
-  {
-    "a": {
-      "identity": 11,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Nigerian threat actors"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:11"
-    },
-    "b": {
-      "identity": 1152931400211496971,
-      "start": 11,
-      "end": 12,
-      "type": "uses_tactic",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152931400211496971",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:11",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:12"
-    },
-    "c": {
-      "identity": 12,
-      "labels": [
-        "Technique"
-      ],
-      "properties": {
-        "name": "T1566 Phishing"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:12"
-    }
-  },
-  {
-    "a": {
-      "identity": 19,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Threat actors"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
-    },
-    "b": {
-      "identity": 1152921504606846995,
-      "start": 19,
-      "end": 20,
-      "type": "used_tool",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152921504606846995",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:20"
-    },
-    "c": {
-      "identity": 20,
-      "labels": [
-        "Tool"
-      ],
-      "properties": {
-        "name": "RDP, TeamViewer"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:20"
-    }
-  },
-  {
-    "a": {
-      "identity": 19,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Threat actors"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
-    },
-    "b": {
-      "identity": 1155173304420532243,
-      "start": 19,
-      "end": 21,
-      "type": "used_tool",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155173304420532243",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:21"
-    },
-    "c": {
-      "identity": 21,
-      "labels": [
-        "Tool"
-      ],
-      "properties": {
-        "name": "Evilginx"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:21"
-    }
-  },
-  {
-    "a": {
-      "identity": 19,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Threat actors"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
-    },
-    "b": {
-      "identity": 1152923703630102547,
-      "start": 19,
-      "end": 22,
-      "type": "targeted",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152923703630102547",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:22"
-    },
-    "c": {
-      "identity": 22,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "Remita, Paystack"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:22"
-    }
-  },
-  {
-    "a": {
-      "identity": 19,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Threat actors"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
-    },
-    "b": {
-      "identity": 1155175503443787795,
-      "start": 19,
-      "end": 23,
-      "type": "targeted",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155175503443787795",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:23"
-    },
-    "c": {
-      "identity": 23,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "Pen Com, Pension"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:23"
-    }
-  },
-  {
-    "a": {
-      "identity": 19,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Threat actors"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
-    },
-    "b": {
-      "identity": 1152932499723124755,
-      "start": 19,
-      "end": 24,
-      "type": "used_malware",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152932499723124755",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:24"
-    },
-    "c": {
-      "identity": 24,
-      "labels": [
-        "Malware"
-      ],
-      "properties": {
-        "name": "Browser Stealer"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:24"
-    }
-  },
-  {
-    "a": {
-      "identity": 19,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Threat actors"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19"
-    },
-    "b": {
-      "identity": 1152939096792891411,
-      "start": 19,
-      "end": 25,
-      "type": "includes",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152939096792891411",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:19",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
-    },
-    "c": {
-      "identity": 25,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Black Mamba"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
-    }
-  },
-  {
-    "a": {
-      "identity": 25,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Black Mamba"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
-    },
-    "b": {
-      "identity": 1152923703630102553,
-      "start": 25,
-      "end": 26,
-      "type": "targeted",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152923703630102553",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:26"
-    },
-    "c": {
-      "identity": 26,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "NCDC"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:26"
-    }
-  },
-  {
-    "a": {
-      "identity": 25,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Black Mamba"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
-    },
-    "b": {
-      "identity": 1152930300699869209,
-      "start": 25,
-      "end": 27,
-      "type": "associated_with",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152930300699869209",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:27"
-    },
-    "c": {
-      "identity": 27,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Global BEC groups"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:27"
-    }
-  },
-  {
-    "a": {
-      "identity": 25,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Black Mamba"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25"
-    },
-    "b": {
-      "identity": 1152940196304519193,
-      "start": 25,
-      "end": 28,
-      "type": "recruited_from",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152940196304519193",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:25",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:28"
-    },
-    "c": {
-      "identity": 28,
-      "labels": [
-        "Entity"
-      ],
-      "properties": {
-        "name": "UNILAG"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:28"
-    }
-  },
-  {
-    "a": {
-      "identity": 30,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Nigerian CyberGroups"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
-    },
-    "b": {
-      "identity": 1152935798258008094,
-      "start": 30,
-      "end": 34,
-      "type": "linked_with",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152935798258008094",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:34"
-    },
-    "c": {
-      "identity": 34,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Dark Hydra"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:34"
-    }
-  },
-  {
-    "a": {
-      "identity": 30,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Nigerian CyberGroups"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
-    },
-    "b": {
-      "identity": 1152942395327774750,
-      "start": 30,
-      "end": 31,
-      "type": "expanded_to",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152942395327774750",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:31"
-    },
-    "c": {
-      "identity": 31,
-      "labels": [
-        "Country"
-      ],
-      "properties": {
-        "name": "Ghana"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:31"
-    }
-  },
-  {
-    "a": {
-      "identity": 30,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Nigerian CyberGroups"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
-    },
-    "b": {
-      "identity": 1155194195141459998,
-      "start": 30,
-      "end": 32,
-      "type": "expanded_to",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1155194195141459998",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:32"
-    },
-    "c": {
-      "identity": 32,
-      "labels": [
-        "Country"
-      ],
-      "properties": {
-        "name": "Kenya"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:32"
-    }
-  },
-  {
-    "a": {
-      "identity": 30,
-      "labels": [
-        "Group"
-      ],
-      "properties": {
-        "name": "Nigerian CyberGroups"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30"
-    },
-    "b": {
-      "identity": 1157445994955145246,
-      "start": 30,
-      "end": 33,
-      "type": "expanded_to",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1157445994955145246",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:30",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:33"
-    },
-    "c": {
-      "identity": 33,
-      "labels": [
-        "Country"
-      ],
-      "properties": {
-        "name": "South Africa"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:33"
-    }
-  },
-  {
-    "a": {
-      "identity": 36,
-      "labels": [
-        "Tool"
-      ],
-      "properties": {
-        "name": "Mimikatz"
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:36"
-    },
-    "b": {
-      "identity": 1152929201188241444,
-      "start": 36,
-      "end": 37,
-      "type": "used_tool_on",
-      "properties": {
-
-      },
-      "elementId": "5:8969e02b-931f-4548-8548-ad15771d988e:1152929201188241444",
-      "startNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:36",
-      "endNodeElementId": "4:8969e02b-931f-4548-8548-ad15771d988e:37"
-    },
-    "c": {
-      "identity": 37,
-      "labels": [],
-      "properties": {
-
-      },
-      "elementId": "4:8969e02b-931f-4548-8548-ad15771d988e:37"
+      "elementId": "4:aa78a221-b675-4516-85b6-6153718804bf:76"
     }
   }
 ]
